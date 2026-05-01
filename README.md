@@ -72,7 +72,7 @@ A Car auction management system, built with **.NET 10**, **Entity Framework Core
 **Clean Architecture** with clear separation of responsibilities:
 
 ```
-CarAuctionManagementAPI/
+CarAuctionManagement.WebAPI/
 ├── CarAuctionManagement.Domain/          # Entities, Exceptions, Interfaces
 │   ├── Entities/                         # Vehicle, Auction, Sedan, SUV, etc.
 │   ├── Exceptions/                       # DomainException, InvalidBidException, etc.
@@ -86,7 +86,7 @@ CarAuctionManagementAPI/
 │   ├── Context/                          # AuctionDbContext (EF Core)
 │   └── Repositories/                     # EfVehicleRepository, EfAuctionRepository
 │
-├── CarAuctionManagementAPI/              # Presentation (Controllers)
+├── CarAuctionManagement.API/             # Presentation (Controllers)
 │   ├── Controllers/                      # AuctionsController, AuthController
 │   ├── Requests/                         # AddVehicleRequest, PlaceBidRequest, etc.
 │   ├── Responses/                        # VehicleResponse, AuctionResponse
