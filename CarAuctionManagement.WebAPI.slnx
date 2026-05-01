@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".dockerignore" />
+    <File Path=".gitignore" />
+    <File Path="Dockerfile" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="CarAuctionManagement.API/CarAuctionManagement.API.csproj" />
+  <Project Path="CarAuctionManagement.Application/CarAuctionManagement.Application.csproj" />
+  <Project Path="CarAuctionManagement.Domain/CarAuctionManagement.Domain.csproj" />
+  <Project Path="CarAuctionManagement.Infrastructure/CarAuctionManagement.Infrastructure.csproj" />
+  <Project Path="CarAuctionManagement.Tests/CarAuctionManagement.Tests.csproj" />
+</Solution>
